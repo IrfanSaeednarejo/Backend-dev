@@ -1,0 +1,20 @@
+{
+  "name": "backendprac",
+  "version": "1.0.0",
+  "description": "A practice journey for Backend",
+  "main": "app",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Irfan Saeed",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0"
+  }
+}
